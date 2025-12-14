@@ -199,20 +199,20 @@
                 game {
                         display-name = "Game";
                         bindings = <
-   &kp TAB             &kp GRAVE           &kp Q               &kp W               &kp E               &kp R                                   &none               &none               &kp UP              &none               &none               &kp BSPC
-   &kp CAPS            &kp LSHIFT          &kp A               &kp S               &kp D               &kp F                                   &none               &kp LEFT            &kp DOWN            &kp RIGHT           &none               &none
-   &kp LCTRL           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                                  &none               &none               &none               &none               &none               &none
-   &none               &trans              &kp G               &kp LALT                                &kp SPACE                               &kp RET                                 &kp RALT            &kp RGUI            &trans              &kp RET
+   &kp ESC             &kp Q               &kp W               &kp E               &kp R               &kp T                                   &kp Y               &kp U               &kp I               &kp O               &kp P               &kp BSPC
+   &kp TAB             &kp A               &kp S               &kp D               &kp F               &kp G                                   &kp H               &kp J               &kp K               &kp L               &kp SEMI            &kp SQT
+   &kp LSHIFT          &kp Z               &kp X               &kp C               &kp V               &kp B                                   &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &kp RSHFT
+   &kp LCTRL           &none               &mo FGC             &kp LALT                                &kp SPACE                               &kp RET                                 &kp RALT            &kp DEL             &none               &kp RCTRL
                         >;
                 };
 
                 fgc {
                         display-name = "FGC";
                         bindings = <
-   &kp ESC             &kp GRAVE           &kp Q               &kp W               &kp E               &kp R                                   &kp T               &kp Y               &kp U               &kp I               &kp O               &kp P
-   &kp TAB             &kp LSHFT           &kp A               &kp S               &kp D               &kp F                                   &kp G               &kp H               &kp J               &kp K               &kp L               &kp SEMI
-   &kp LCTRL           &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                                  &kp B               &kp N               &kp M               &kp COMMA           &kp DOT             &kp RET
-   &trans              &trans              &kp G               &kp LALT                                &kp SPACE                               &kp RSHFT                               &mkp MB1            &kp RGUI            &trans              &trans
+   &kp ESC             &kp N1              &kp N2              &kp N3              &kp N4              &kp N5                                  &kp Y               &kp U               &kp I               &kp O               &kp P               &kp BSPC
+   &kp TAB             &kp N6              &kp N7              &kp N8              &kp N9              &kp N0                                  &kp H               &kp J               &kp K               &kp L               &kp SEMI            &kp SQT
+   &kp LSHIFT          &kp F1              &kp F2              &kp F3              &kp F4              &kp F5                                  &kp N               &kp M               &kp COMMA           &kp DOT             &kp FSLH            &kp RSHFT
+   &kp LCTRL           &none               &none               &kp LALT                                &kp SPACE                               &kp RET                                 &kp RALT            &kp DEL             &none               &kp RCTRL
                         >;
                 };
         };
